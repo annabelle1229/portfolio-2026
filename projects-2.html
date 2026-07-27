@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Noto+Sans+TC:wght@100..900&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div data-barba="wrapper">
+
+        <nav id="main-nav">
+            <a href="index.html" class="nav-slogan text-muted">Beyond the Horizon</a>
+            <ul class="nav-links">
+                <li><a href="index.html#intro">Intro</a></li>
+                <li><a href="index.html#career">Career</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="mailto:annabelle1229@gmail.com">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-mobile-menu" id="mobile-menu">
+            <a href="index.html#intro" class="mobile-link">Intro</a>
+            <a href="index.html#career" class="mobile-link">Career</a>
+            <a href="index.html#projects" class="mobile-link">Projects</a>
+            <a href="mailto:annabelle1229@gmail.com" class="mobile-link">Contact</a>
+        </div>
+        <canvas id="starfield"></canvas>
+
+        <div data-barba="container" data-barba-namespace="projects">
+            <section class="projectkv">
+                <div class="projectkv-bg" style="background-image: url('assets/img/project-2-kv.jpg');"></div>
+                <h2>惠氏－跨角色報表系統設計</h2>
+            </section>
+            <section class="project-content">
+
+                <div class="project-sec project-info">
+                    <div class="project-wrap">
+                        <ul>
+                            <li>
+                                <div class="label">TYPE</div>
+                                <div class="text-muted">UIUX, B2B</div>
+                            </li>
+                            <li>
+                                <div class="label">YEAR</div>
+                                <div class="text-muted">2022-2025</div>
+                            </li>
+                        </ul>
+                        <div class="project-txt">
+                            <p class="text-muted">
+                                惠氏這個專案有點特別，它的核心任務是為不同角色的業務人員，各自打造一套屬於他們的報表平台<br/>
+                                <br/>
+                                有人用手機查當月業績，有人在電腦處理橫跨整年的財務數字和多品牌報表，面對的使用者和情境都不一樣。但核心問題始終一樣：怎麼讓人在密密麻麻的數字裡，快速找到屬於自己的那份資訊，不迷路、不出錯
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-sec project-challenge">
+                    <div class="project-wrap">
+                        <h4>設計挑戰</h4>
+                        <div class="project-txt">
+                            <p class="text-muted">
+                                不同角色登入看到的東西不同，報表欄位橫跨多月、裝置情境也不一樣，如何讓每個人都能在對的地方找到對的資訊，是這個系列專案最核心的設計挑戰
+                            </p>
+                        </div>
+                    </div>
+                    <div class="challenge-wrap">
+                        <div class="circle"><h3>空間迷航</h3></div>
+                        <div class="circle"><h3>操作失誤</h3></div>
+                    </div>
+                </div>
+                <img src="assets/img/project-2-pic.jpg"/>
+                <div class="project-sec project-target">
+                    <div class="project-wrap">
+                        <h4>設計目標</h4>
+                        <div class="project-txt">
+                            <h3>
+                                不同角色登入，都能快速找到專屬資訊<br/>
+                                不分裝置，操作都直覺順暢<br/>
+                                密集數字清楚可讀，重點自然跳出來
+                            </h3>
+                            <!-- <p class="text-muted">不同裝置、不同情境，都能順利操作</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-sec project-sp">
+                    <!-- sp1 -->
+                    <div class="sp">
+                        <div class="sp-pic">
+                            <!-- <img src="assets/lotties/sp2-1.svg"/> -->
+                            <div class="lottie-container">
+                                <div class="lottie-player" data-lottie-path="./assets/lotties/sp2-1.json"></div>
+                            </div>
+                        </div>
+                        <div class="sp-text">
+                            <h3>多層級視覺導航</h3>
+                            <p class="text-muted">電腦報表欄位多、跨度長，用凍結列搭配斑馬紋讓視線好對齊，再加上欄位動態篩選，讓使用者只看自己在意的資訊。針對不同登入角色，用底色區分業務專屬欄位和管理者才看得到的資料—不用猜，一眼就知道自己的閱讀範圍</p>
+                        </div>
+                    </div>
+                    <!-- sp2 -->
+                    <div class="sp sp2">
+                        <div class="sp-text">
+                            <h3>瀏覽與編輯模式切換</h3>
+                            <p class="text-muted">報表平常是拿來看的，只有需要改的時候才進編輯。把瀏覽和編輯拆成兩個模式—閱讀時畫面乾淨，不會誤觸；切換進編輯後，系統自動帶入格式提示（ex: 自動補%），讓修改更順手、更不容易出錯</p>
+                        </div>
+                        <div class="sp-pic">
+                            <!-- <img src="assets/lotties/sp2-2.svg"/> -->
+                            <div class="lottie-container">
+                                <div class="lottie-player" data-lottie-path="./assets/lotties/sp2-2.json"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sp3 -->
+                    <div class="sp">
+                        <div class="sp-pic">
+                            <!-- <img src="assets/lotties/sp2-3.svg"/> -->
+                            <div class="lottie-container">
+                                <div class="lottie-player" data-lottie-path="./assets/lotties/sp2-3.json"></div>
+                            </div>
+                        </div>
+                        <div class="sp-text">
+                            <h3>資訊圖表化</h3>
+                            <p class="text-muted">數字多不代表好讀。把關鍵業績指標從表格裡抽出來轉成視覺化圖表，讓管理者和業務不用逐格掃描，重點自然跳出來。手機上也以圖表為主要呈現方式，讓業務能快速掌握當月成績</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-sec project-if">
+                    <div class="project-wrap">
+                        <h3>What if... now</h3>
+                        <div class="project-txt">
+                            <p class="text-muted"><span>自定義視圖</span>－不同角色關注的重點不同，財務和業務想看的欄位根本不一樣。如果重來，會想加入「儲存常用視圖」的功能，讓使用者一鍵切換自己的閱讀版本，不用每次都重新篩選</p><br/>
+                            <p class="text-muted"><span>異常數據警示</span>－現在的設計讓數字好讀，但還是需要使用者自己去找問題。會想在視覺上加入自動標註—ex: 達成率偏低的欄位自動變色、加上提示，讓問題主動跳出來，而不是等人發現</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer-wrap">
+                <div class="slogan">
+                    Ready for<br/>
+                    the <span>next mission.</span>
+                </div>
+                <a href="">Send a Signal<img src="assets/img/arrow.svg"/></a>
+            </div>
+            <div class="copy text-muted">© 2026 Yu-Hsuan Chen</div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="assets/js/starfield.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

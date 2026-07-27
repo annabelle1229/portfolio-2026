@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Noto+Sans+TC:wght@100..900&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div data-barba="wrapper">
+
+        <nav id="main-nav">
+            <a href="index.html" class="nav-slogan text-muted">Beyond the Horizon</a>
+            <ul class="nav-links">
+                <li><a href="index.html#intro">Intro</a></li>
+                <li><a href="index.html#career">Career</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="mailto:annabelle1229@gmail.com">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-mobile-menu" id="mobile-menu">
+            <a href="index.html#intro" class="mobile-link">Intro</a>
+            <a href="index.html#career" class="mobile-link">Career</a>
+            <a href="index.html#projects" class="mobile-link">Projects</a>
+            <a href="mailto:annabelle1229@gmail.com" class="mobile-link">Contact</a>
+        </div>
+        <canvas id="starfield"></canvas>
+
+        <div data-barba="container" data-barba-namespace="projects">
+            <section class="projectkv">
+                <div class="projectkv-bg" style="background-image: url('assets/img/project-5-kv.jpg');"></div>
+                <h2>蘇菲亞珠寶 官網設計</h2>
+            </section>
+            <section class="project-content">
+                <div class="project-sec project-info" style="border: 0;">
+                    <div class="project-wrap">
+                        <ul>
+                            <li>
+                                <div class="label">TYPE</div>
+                                <div class="text-muted">官網設計</div>
+                            </li>
+                            <li>
+                                <div class="label">YEAR</div>
+                                <div class="text-muted">2023</div>
+                            </li>
+                            <li>
+                                <a href="https://www.sophia.com.tw" target="_blank" class="pd-link">LINK</a>
+                            </li>
+                        </ul>
+                        <div class="project-txt">
+                            <p class="text-muted">
+                                呼應蘇菲亞近年實體櫃點的明亮新氣象，將粉橘色系與柔和的圓弧拱門線條搬上網頁，為顧客打造了一間優雅的線上貴賓室<br/>
+                                <br/>
+                                這次改版重點在於UIUX的全面優化。重新梳理了動線，讓使用者從認識品牌到線上預約一氣呵成。針對過去缺乏商品細節的痛點，這次從零規劃了完善介面，並結合進階篩選與搜尋，讓顧客在分類頁就能直接預覽商品各種角度。透過視覺與功能的雙重升級，讓線上挑選珠寶變成一段直覺、流暢且享受的旅程
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/project-5-pic_1.png" class="pd-img"/>
+                <img src="assets/img/project-5-pic_2.png" class="pd-img"/>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer-wrap">
+                <div class="slogan">
+                    Ready for<br/>
+                    the <span>next mission.</span>
+                </div>
+                <a href="">Send a Signal<img src="assets/img/arrow.svg"/></a>
+            </div>
+            <div class="copy text-muted">© 2026 Yu-Hsuan Chen</div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="assets/js/starfield.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

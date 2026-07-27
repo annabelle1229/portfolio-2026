@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Noto+Sans+TC:wght@100..900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div data-barba="wrapper" class="wrapper">
+
+        <nav id="main-nav">
+            <a href="index.html" class="nav-slogan text-muted">Beyond the Horizon</a>
+            <ul class="nav-links">
+                <li><a href="index.html#intro">Intro</a></li>
+                <li><a href="index.html#career">Career</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="mailto:annabelle1229@gmail.com">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-mobile-menu" id="mobile-menu">
+            <a href="index.html#intro" class="mobile-link">Intro</a>
+            <a href="index.html#career" class="mobile-link">Career</a>
+            <a href="index.html#projects" class="mobile-link">Projects</a>
+            <a href="mailto:annabelle1229@gmail.com" class="mobile-link">Contact</a>
+        </div>
+        <canvas id="starfield"></canvas>
+
+        <div data-barba="container" data-barba-namespace="home">
+            <div class="ufo-scene">
+                <div id="ufo-wrapper">
+                    <img id="ufo-img" src="assets/img/ufo.png" alt="UFO">
+                    <div class="ufo-beam"></div>
+                    <div class="ground-glow"></div>
+                </div>
+            </div>
+            <section id="index-sec1">
+                <div data-fadein>
+                    <h2 class="year highlight">2026</h2>
+                    <p class="career text-muted">UIUX/Web Designer</p>
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="kv-name" data-fadein>
+                    <p class="text-muted">相信設計的無限可能 —<br/>
+                    在美感與邏輯之間，觸動人心</p>
+                    <div class="name">YUHSUAN CHEN</div>
+                </div>
+                <ul class="text-muted text-right">
+                    <li>UIUX</li>
+                    <li>Web Design</li>
+                    <li>Front-end</li>
+                    <li>10+ Years</li>
+                </ul>
+            </section>
+            <section id="index-sec2">
+                <h2 id="intro" data-fadein>INTRO</h2>
+                <p class="intro-txt text-muted pc"  data-fadein>
+                    Hi, I'm Yu-HSUAN — 一個在邏輯與直覺之間悠游的設計師<br/>
+                    帶著 10 年跨領域探索的經驗，從視覺到互動、從前端到系統，穿越過大大小小的星系<br/>
+                    不管降落在哪個任務，最後在意的都是同一件事：這個設計，有沒有真的觸動到人
+                </p>
+                <p class="intro-txt text-muted mb"  data-fadein>
+                    Hi, I'm Yu-HSUAN<br/>
+                    一個在邏輯與直覺之間悠游的設計師<br/>
+                    帶著 10 年跨領域探索的經驗，從視覺到互動、從前端到系統，
+                    穿越過大大小小的星系，不管降落在哪個任務，
+                    最後在意的都是同一件事：這個設計，有沒有真的觸動到人
+                </p>
+                <ul data-fadein>
+                    <li>
+                        <div class="icon"><img src="assets/img/icon-1.svg" alt="網頁設計"/></div>
+                        <div class="txt">
+                            <h3>網頁設計</h3>
+                            <p class="text-muted">大型官網到行銷頁面都很有經驗，對品牌調性很有感，喜歡有質感又簡單明瞭的設計</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon"><img src="assets/img/icon-2.svg" alt="UIUX"/></div>
+                        <div class="txt">
+                            <h3>UIUX</h3>
+                            <p class="text-muted">喜歡解謎遊戲，幫客戶釐清問題比直接給答案更重要，從中找出最適合的解決方案</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon"><img src="assets/img/icon-3.svg" alt="前端動態"/></div>
+                        <div class="txt">
+                            <h3>前端動態</h3>
+                            <p class="text-muted">喜歡在設計細節裡加入小巧思，讓操作體驗多一點驚喜</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon"><img src="assets/img/icon-4.svg" alt="experience"/></div>
+                        <div class="txt">
+                            <h3>10+ Years Exp.</h3>
+                            <p class="text-muted">多樣專案經驗的累積，現在都內化成設計直覺的一部分</p>
+                        </div>
+                    </li>
+                </ul>
+                <div id="intro-orbit">
+                    <img class="star-center" src="assets/img/sun.png" alt=""/>
+                    <img class="planet-1" src="assets/img/neptune.png" alt="">
+                    <img class="planet-2" src="assets/img/mars.png" alt="">
+                    <img class="planet-3" src="assets/img/jupiter.png" alt="">
+                </div>
+                <div id="career" class="career-section" data-fadein>
+                    <h3 class="sec-title">CAREER</h3>
+                    <div class="timeline-axis" aria-hidden="true">
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="swiper career-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide career-card">
+                                <div class="career-dot"></div>
+                                <div class="card-inner">
+                                    <span class="card-year">2008</span>
+                                    <div class="card-tt">
+                                        <h4 class="card-company">涵氧廣告</h4>
+                                        <span class="card-tag">多媒體設計</span>
+                                    </div>
+                                    <p class="text-muted">房地產建案的電子表板設計，運用FLASH介紹生活機能、工法建材，複雜的資訊讓它好看又好懂</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide career-card">
+                                <div class="career-dot"></div>
+                                <div class="card-inner">
+                                    <span class="card-year">2013</span>
+                                    <div class="card-tt">
+                                        <h4 class="card-company">維克數位</h4>
+                                        <span class="card-tag">大型官網設計</span>
+                                    </div>
+                                    <p class="text-muted">接手大型官網與無障礙網站設計，從零建立設計系統</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide career-card">
+                                <div class="career-dot"></div>
+                                <div class="card-inner">
+                                    <span class="card-year">2016</span>
+                                    <div class="card-tt">
+                                        <h4 class="card-company">禾米數位</h4>
+                                        <span class="card-tag">動態互動</span>
+                                    </div>
+                                    <p class="text-muted">盡情玩到過癮－專心創造活動網頁、互動遊戲、各種讓人想多停留一秒的動態</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide career-card">
+                                <div class="career-dot"></div>
+                                <div class="card-inner">
+                                    <span class="card-year">2018</span>
+                                    <div class="card-tt">
+                                        <h4 class="card-company">DC數位溝通</h4>
+                                        <span class="card-tag">UIUX設計</span>
+                                    </div>
+                                    <p class="text-muted">進化幅度最大的階段。把自己過往經驗淬鍊出的感性視覺和理性邏輯整合</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide career-card career-card--present">
+                                <div class="career-dot"></div>
+                                <div class="card-inner">
+                                    <span class="card-year">2026</span>
+                                    <div class="card-tt">
+                                        <h4 class="card-company">Present</h4>
+                                    </div>
+                                    <p class="text-muted">航行未完待續。持續在宇宙中進化，運用百變觸手為下一個星系的任務，創造更多觸動人心的設計可能</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="index-sec3">
+                <div id="projects" class="sec-title">
+                    <h2>PROJECTS</h2>
+                    <span>Stardust Collected</span>
+                </div>
+                <ul class="project-list">
+                    <!-- uiux -->
+                    <li>
+                        <a href="projects-1.html">
+                            <div class="project-pic"><img src="assets/img/project-1-list.jpg" alt="金寶山"/></div>
+                            <div class="project-title">
+                                <h3>金寶山 傳統殯葬業數位轉型</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag uiux">UIUX</span>
+                                    <span class="project-tag">CMS</span>
+                                </div>
+                            </div>
+                            <p class="text-muted">協助傳統殯葬業從紙本作業走向數位化，重新設計客戶管理、墓園選位到電子簽約的第一線工作流程</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects-2.html">
+                            <div class="project-pic"><img src="assets/img/project-2-list.jpg" alt="惠氏"/></div>
+                            <div class="project-title">
+                                <h3>惠氏－跨角色報表系統設計</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag uiux">UIUX</span>
+                                    <span class="project-tag">B2B</span>
+                                </div>
+                            </div>
+                            <p class="text-muted">面對跨月份、多品牌的龐雜財務數據，透過導航設計與視覺化圖表，讓複雜報表變得好讀又好用</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects-3.html">
+                            <div class="project-pic"><img src="assets/img/project-3-list.jpg" alt="FaceColor"/></div>
+                            <div class="project-title">
+                                <h3>FaceColor美髮連鎖預約管理</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag uiux">UIUX</span>
+                                    <span class="project-tag">O2O</span>
+                                </div>
+                            </div>
+                            <p class="text-muted">結合 LINE 前台預約與後台多店管理，把人工排班的混亂轉化成 24 小時自動化服務</p>
+                        </a>
+                    </li>
+                    <!-- website -->
+                    <li>
+                        <a href="projects-4.html">
+                            <div class="project-pic"><img src="assets/img/project-4-list.jpg" alt="中信慈善"/></div>
+                            <div class="project-title">
+                                <h3>中信慈善基金會 官網設計</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag website">官網設計</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects-5.html">
+                            <div class="project-pic"><img src="assets/img/project-5-list.jpg" alt="蘇菲亞珠寶"/></div>
+                            <div class="project-title">
+                                <h3>蘇菲亞珠寶 官網設計</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag website">官網設計</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- pdp -->
+                    <li>
+                        <a href="projects-6.html">
+                            <div class="project-pic"><img src="assets/img/project-6-list.jpg" alt="Lancome"/></div>
+                            <div class="project-title">
+                                <h3>蘭蔻銷售頁設計</h3>
+                                <div class="tag-wrap">
+                                    <span class="project-tag pdp">行銷設計</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer-wrap">
+                <div class="slogan">
+                    Ready for<br/>
+                    the <span>next mission.</span>
+                </div>
+                <a href="mailto:annabelle1229@gmail.com">Send a Signal<img src="assets/img/arrow.svg" alt="contact"/></a>
+            </div>
+            <div class="copy text-muted">© 2026 Yu-Hsuan Chen</div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/js/starfield.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

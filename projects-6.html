@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Noto+Sans+TC:wght@100..900&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div data-barba="wrapper">
+
+        <nav id="main-nav">
+            <a href="index.html" class="nav-slogan text-muted">Beyond the Horizon</a>
+            <ul class="nav-links">
+                <li><a href="index.html#intro">Intro</a></li>
+                <li><a href="index.html#career">Career</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="mailto:annabelle1229@gmail.com">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-mobile-menu" id="mobile-menu">
+            <a href="index.html#intro" class="mobile-link">Intro</a>
+            <a href="index.html#career" class="mobile-link">Career</a>
+            <a href="index.html#projects" class="mobile-link">Projects</a>
+            <a href="mailto:annabelle1229@gmail.com" class="mobile-link">Contact</a>
+        </div>
+        <canvas id="starfield"></canvas>
+
+        <div data-barba="container" data-barba-namespace="projects">
+            <section class="projectkv">
+                <div class="projectkv-bg" style="background-image: url('assets/img/project-6-kv.jpg');"></div>
+                <h2>蘭蔻銷售頁設計</h2>
+            </section>
+            <section class="project-content">
+                <div class="project-sec project-info" style="border: 0;">
+                    <div class="project-wrap">
+                        <ul>
+                            <li>
+                                <div class="label">TYPE</div>
+                                <div class="text-muted">行銷設計</div>
+                            </li>
+                            <li>
+                                <div class="label">YEAR</div>
+                                <div class="text-muted">2018-2025</div>
+                            </li>
+                        </ul>
+                        <div class="project-txt">
+                            <p class="text-muted">
+                                每次碰到行銷頁的設計都在思考：在維持品牌調性中，怎麼吸引目光？怎麼把複雜資訊整理得簡單好讀？又該怎麼勾起消費者的購買慾望？<br/>
+                                <br/>
+                                進入設計前，我會先摸透商品調性，把客戶給的大量資料梳理出優先順序，排好流暢的說故事動線；運用 AI 等工具突破視覺限制，跟客戶討論新解法。編排畫面時，代入消費者視角，用閱讀動線引導他們一步步被打動，再運用各種動態效果為產品特性加分，降低猶豫，讓消費者自然就想下單試試看
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/project-6-pic_1.png" class="pd-img"/>
+                <img src="assets/img/project-6-pic_2.png" class="pd-img"/>
+                <img src="assets/img/project-6-pic_3.png" class="pd-img"/>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer-wrap">
+                <div class="slogan">
+                    Ready for<br/>
+                    the <span>next mission.</span>
+                </div>
+                <a href="">Send a Signal<img src="assets/img/arrow.svg"/></a>
+            </div>
+            <div class="copy text-muted">© 2026 Yu-Hsuan Chen</div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="assets/js/starfield.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

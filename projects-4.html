@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Noto+Sans+TC:wght@100..900&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div data-barba="wrapper">
+
+        <nav id="main-nav">
+            <a href="index.html" class="nav-slogan text-muted">Beyond the Horizon</a>
+            <ul class="nav-links">
+                <li><a href="index.html#intro">Intro</a></li>
+                <li><a href="index.html#career">Career</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="mailto:annabelle1229@gmail.com">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="nav-mobile-menu" id="mobile-menu">
+            <a href="index.html#intro" class="mobile-link">Intro</a>
+            <a href="index.html#career" class="mobile-link">Career</a>
+            <a href="index.html#projects" class="mobile-link">Projects</a>
+            <a href="mailto:annabelle1229@gmail.com" class="mobile-link">Contact</a>
+        </div>
+        <canvas id="starfield"></canvas>
+
+        <div data-barba="container" data-barba-namespace="projects">
+            <section class="projectkv">
+                <div class="projectkv-bg" style="background-image: url('assets/img/project-4-kv.jpg');"></div>
+                <h2>中信慈善基金會 官網設計</h2>
+            </section>
+            <section class="project-content">
+
+                <div class="project-sec project-info" style="border: 0;">
+                    <div class="project-wrap">
+                        <ul>
+                            <li>
+                                <div class="label">TYPE</div>
+                                <div class="text-muted">官網設計</div>
+                            </li>
+                            <li>
+                                <div class="label">YEAR</div>
+                                <div class="text-muted">2022</div>
+                            </li>
+                            <li>
+                                <a href="https://www.ctbcfoundation.org" target="_blank" class="pd-link">LINK</a>
+                            </li>
+                        </ul>
+                        <div class="project-txt">
+                            <p class="text-muted">
+                                大家熟知的中信慈善基金會，這次改版想傳達的是「一眼有感」的轉變。延續品牌熟悉感的同時，運用中性清新的調性來襯托品牌識別色，加上帶有童趣感的手繪筆觸的插畫，營造溫暖&信任的氛圍<br/>
+                                <br/>
+                                為了讓「小火子」更靈活地融入畫面：在最重要的CTA上，他會抱著愛心現身，負責感性地呼籲大家一起做好事；而在導覽或小icon上，則化身為輕盈的線條版，在介面中帶路。配合網頁滑動時的文字重點畫線與微動態，讓重要的內容自然被看見，也能讓使用者在瀏覽的過程中，慢慢累積對品牌的認同感
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/project-4-pic_1.png" class="pd-img"/>
+                <img src="assets/img/project-4-pic_2.png" class="pd-img"/>
+            </section>
+        </div>
+
+        <footer>
+            <div class="footer-wrap">
+                <div class="slogan">
+                    Ready for<br/>
+                    the <span>next mission.</span>
+                </div>
+                <a href="">Send a Signal<img src="assets/img/arrow.svg"/></a>
+            </div>
+            <div class="copy text-muted">© 2026 Yu-Hsuan Chen</div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="assets/js/starfield.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>
