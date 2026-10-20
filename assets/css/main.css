@@ -967,14 +967,14 @@ footer .copy {
 .project-if .project-txt span {
 	color: #fff;
 }
-.project-challenge .challenge-wrap {
+.project-sec .challenge-wrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 40px;
 	margin: 64px auto 80px;
 }
-.project-challenge .challenge-wrap .circle {
+.project-sec .challenge-wrap .circle {
 	background: #1a1a1a;
 	text-align: center;
 	flex: 0 0 240px;
@@ -1007,6 +1007,9 @@ footer .copy {
 .project-info li {
 	margin-bottom: 40px;
 }
+.project-txt .key {
+	margin-bottom: 24px;
+}
 
 /* RWD */
 @media screen and (max-width: 1600px) {
@@ -1029,10 +1032,10 @@ footer .copy {
 	.project-if .project-wrap .project-txt {
 		width: 64%;
 	}
-	.project-challenge .challenge-wrap {
+	.project-sec .challenge-wrap {
 		margin: 3.2vw auto 4vw;
 	}
-	.project-challenge .challenge-wrap .circle {
+	.project-sec .challenge-wrap .circle {
 		flex: 0 0 20vw;
 		height: 20vw;
 		max-width: 240px;
@@ -1053,6 +1056,9 @@ footer .copy {
 	}
 	.project-info li {
 		margin-bottom: 2vw;
+	}
+	.project-txt .key {
+		margin-bottom: 1.2vw;
 	}
 }
 @media screen and (max-width: 1440px) {
@@ -1087,12 +1093,12 @@ footer .copy {
 	.project-if .project-wrap .project-txt {
 		width: 100%;
 	}
-	.project-challenge .challenge-wrap {
+	.project-sec .challenge-wrap {
 		justify-content: center;
 		gap: 3vw;
 		margin: 8.3vw auto;
 	}
-	.project-challenge .challenge-wrap .circle {
+	.project-sec .challenge-wrap .circle {
 		flex: 0 0 30vw;
 		height: 30vw;
 		max-width: 200px;
@@ -1122,6 +1128,9 @@ footer .copy {
 		display: inline-block;
 		vertical-align: middle;
 	}
+	.project-txt .key {
+		margin-bottom: 2vw;
+	}
 	.project-if {
 		margin-bottom: 8.3vw;
 	}
@@ -1130,10 +1139,10 @@ footer .copy {
 	.projectkv {
 		height: 64vw;
 	}
-	.project-challenge .challenge-wrap {
+	.project-sec .challenge-wrap {
 		gap: 2vw;
 	}
-	.project-challenge .challenge-wrap .circle {
+	.project-sec .challenge-wrap .circle {
 		flex: 0 0 40vw;
 		height: 40vw;
 		max-width: 200px;
